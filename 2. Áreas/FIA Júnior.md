@@ -20,7 +20,9 @@ quando ele processar a conversa de diretores de quinta.
 - Responde a [[André Lima]], presidente, e [[Sophie Yumi]], vice-presidente.
 - Relação indireta com [[Diego Coelho]], professor orientador e articulador da
   parceria com a consultoria da FIA.
-- Reunião recorrente: conversa entre diretores, quintas de working day.
+- Reunião recorrente: working day com check-in do DP, às quintas. Confirmado
+  pelo Neto em 2026-10-15. O Notion registrava sexta em 01/04/2026, e a
+  divergência foi resolvida pela confirmação dele.
 - Reuniões por demanda: cliente novo, projeto em curso, chamado do Diego.
 - Entra aqui: gestão do departamento de Projetos, diretoria, processos internos,
   alocação de membros, trajetória do Neto na EJ, reuniões internas.
@@ -93,9 +95,6 @@ Pan.
       vazia.
 - [ ] Levantar os projetos ativos do departamento, na fase 4c.
 - [ ] ❓ dúvida: confirmar o texto do termo de confidencialidade.
-- [ ] ❓ dúvida: o working day é quinta ou sexta? A entrevista da fase 1 diz
-      "quintas de working day"; o Notion, em 01/04/2026, diz "Working Day,
-      check-in DP, semanal, toda sexta". As duas fontes se contradizem.
 - [ ] Nomear as quatro pessoas do time. O nome não consta na fonte, então
       nenhuma nota de pessoa pode ser criada a partir dela. Depois de nomeadas,
       a nota de cada uma é proposta pelo [[Arrumador]], nunca escrita por conta
@@ -121,3 +120,4 @@ Pan.
 - **2026-04-01** | Notion — projeto "Hub Notion DP" aberto para centralizar a operação do departamento, com 50% de progresso e entrega prevista em 11/04/2026. Não virou nota de projeto no vault: o próprio vault o substitui
 - **2026-10-15** | entrevista da fase 1 — área criada na construção do vault
 - **2026-10-15** | migração do Notion — contexto da diretoria trazido para a área
+- **2026-10-15** | confirmação do Neto — working day confirmado como quinta, contra o registro de sexta do Notion

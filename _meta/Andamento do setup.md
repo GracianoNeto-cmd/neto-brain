@@ -8,7 +8,7 @@ tags: [setup]
 ---
 # Andamento do setup
 
-**Fase atual:** fase 2 concluída em 2026-10-15. Próxima: fase 3, construir a arquitetura.
+**Fase atual:** fase 3 concluída em 2026-10-15. Próxima: fase 4, contexto de reuniões.
 
 Leia este arquivo antes de tudo no começo de cada sessão nova.
 
@@ -40,6 +40,21 @@ Notion, Google Drive, memória e skills do Claude, e arquivos soltos no PC. O No
 - Fora do GitHub pelo `.gitignore`: `_meta/setup/` (entrevista bruta), `.obsidian/workspace*`, `.claude/settings.local.json`, nomes com `(sigilo)` e o corpo de prova.
 - Remoto: `https://github.com/GracianoNeto-cmd/neto-brain.git`, privado e vazio na criação.
 - Primeiro commit: `4b9d899`, 10 arquivos, enviado em 2026-10-15.
+
+## Fase 3: arquitetura (2026-10-15)
+- Estrutura de pastas criada conforme o teste de decisão, com `Reuniões/` em FIA Júnior e `Matérias/` em Faculdade. Nota de área mora em `2. Áreas/<Área>.md`, e a pasta existe ao lado só para subconteúdo.
+- Raiz: `CLAUDE.md` (contrato do agente, 72 linhas, importa as regras por `@_meta/REGRAS-DO-VAULT.md`), `CONTEXTO.md` (resumo aprovado da entrevista, arquivo do Neto) e `INICIO.md` (porta de entrada, com a tabela de gatilhos marcando o que já existe).
+- `_meta/REGRAS-DO-VAULT.md`: regras de nota, adaptadas das do Heitor. Sem Dataview, porque o plugin não está instalado. Com seções de sigilo e de decisão de alocação, que são do Neto e não existem no vault dele.
+- Cinco áreas criadas: FIA Júnior, Faculdade, Carreira, Interesses, Saúde e treino.
+- Seis modelos em `_meta/modelos/`: Reunião, Decisão, Pessoa, Skill, Tema e Captura.
+- Cinco pessoas e um círculo: André Lima, Sophie Yumi, Diego Coelho, Edson Ito, Samantha e FIA Business School.
+- Arrumador em três peças: `_meta/Arrumador.md` (especificação editável no Obsidian), `.claude/agents/arrumador.md` (ponteiro, sem modelo declarado) e `_meta/Log-do-Arrumador.md` (tabela vazia).
+- Skill "Encerrar sessão" em `3. Recursos/Skills/`, com as quatro respostas mais Candidato a skill e Atualizações por pessoa, por escolha do Neto.
+- Grafo configurado com o Neto: filtro `-path:"_meta" -path:"0. Inbox"`, cinco grupos de cor por frente usando `[area:...] OR path:"..."`, e órfãos ligados. Resultado conferido na tela: 16 nós.
+
+## Fatos verificados em 2026-10-15
+- O plugin Sync do Obsidian está habilitado, mas pede login: não existe cofre remoto conectado. Nenhuma nota sai do computador por esse caminho. Reconferir se o Neto um dia assinar o Sync.
+- Existe `Sem título.canvas` na raiz, vazio, criado pelo Neto em 2026-10-15 às 14:44. O Claude não toca nele.
 
 ## Onde está o backup
 1. Sincronização: nenhuma, por escolha. Não existe cópia em nuvem de arquivos.
@@ -74,16 +89,23 @@ Antes de qualquer operação em lote no futuro, o Claude pergunta se existe back
 - Definir na fase 4 o critério operacional de "reunião importante", que hoje é circular.
 - Decidir se transcrição automática de reunião de cliente é viável, dado que exige avisar os participantes e existe termo de confidencialidade.
 - Fase 3: decidir se decisão de vida fica na área correspondente, e não em `_meta/Decisões/`.
+- Projetos ativos: o Neto ainda não informou quais são. `1. Projetos/` está vazia.
+- TCC: candidato a projeto, sem data de início.
+- ABRAEC: hipótese vinda do Drive, não confirmada pelo Neto. Se for projeto de cliente da FIA Júnior, nasce `sigilo: alto`.
+- Criar as notas de matéria do semestre, que é onde os professores entram no grafo.
+- Decidir o que fazer com `Sem título.canvas`.
 
 ## Fases
 - Fase 0, ambiente, limites e sigilo: concluída em 2026-10-15.
 - Fase 1, entrevista: concluída em 2026-10-15. Sete blocos respondidos, crus em `_meta/setup/Entrevista bruta.md`. O resumo de uma página foi aprovado pelo Neto sem correções e vira o `CONTEXTO.md` na fase 3.
 - Fase 2, ambiente de versionamento: concluída em 2026-10-15.
-- Fase 3, arquitetura: próxima.
-- Fases 4 a 8: não iniciadas.
+- Fase 3, arquitetura: concluída em 2026-10-15.
+- Fase 4, contexto de reuniões: próxima. Depende de resolver a falta de fonte: hoje nenhuma reunião do Neto gera transcrição.
+- Fases 4b a 8: não iniciadas.
 
 ---
 ## Timeline
 - **2026-10-15** | conversa com o Claude — fase 0 concluída, git configurado, duas decisões registradas
 - **2026-10-15** | conversa com o Claude — fase 1 concluída, sete blocos de entrevista gravados e resumo aprovado
 - **2026-10-15** | conversa com o Claude — fase 2 concluída, permissões, hook de sigilo, gitignore e primeiro envio ao GitHub
+- **2026-10-15** | conversa com o Claude — fase 3 concluída, arquitetura criada e grafo configurado com 16 nós

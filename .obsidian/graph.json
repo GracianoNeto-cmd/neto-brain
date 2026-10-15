@@ -6,7 +6,43 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "-path:\"_meta\" -path:\"0. Inbox/Capturas\" path:\"2. Áreas/Faculdade\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "-path:\"_meta\" -path:\"0. Inbox\" path:\"2. Áreas/FIA Júnior\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 1192563
+      }
+    },
+    {
+      "query": "path:\"Carreira\"",
+      "color": {
+        "a": 1,
+        "rgb": 5600787
+      }
+    },
+    {
+      "query": "path:\"Saúde e treino",
+      "color": {
+        "a": 1,
+        "rgb": 14147666
+      }
+    },
+    {
+      "query": "path:\"Interesses",
+      "color": {
+        "a": 1,
+        "rgb": 6494867
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -18,5 +54,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1,
-  "close": true
+  "close": false
 }

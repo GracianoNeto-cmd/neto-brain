@@ -1,0 +1,37 @@
+#!/bin/bash
+# Bloqueia o commit de qualquer nota cujo cabecalho traga sigilo: alto.
+# Le o conteudo que esta no index, nao o do disco, para nao ser enganado
+# por uma edicao feita depois do git add.
+set -u
+
+tmp="$(mktemp)"
+trap 'rm -f "$tmp"' EXIT
+
+git diff --cached --name-only -z --diff-filter=ACMR | while IFS= read -r -d '' f; do
+  case "$f" in
+    *.md) ;;
+    *) continue ;;
+  esac
+  if git show ":$f" 2>/dev/null \
+     | awk 'NR==1 { if ($0 != "---") exit; next } $0 == "---" { exit } { print }' \
+     | grep -Eiq '^sigilo:[[:space:]]*alto[[:space:]]*$'; then
+    printf '%s\n' "$f" >> "$tmp"
+  fi
+done
+
+if [ -s "$tmp" ]; then
+  {
+    echo ""
+    echo "COMMIT BLOQUEADO: nota com sigilo: alto no cabecalho."
+    echo ""
+    sed 's/^/  - /' "$tmp"
+    echo ""
+    echo "Essas notas ficam no computador e no grafo, e nunca sobem para o GitHub."
+    echo "Para seguir, tire cada uma do stage:"
+    echo "  git restore --staged \"<arquivo>\""
+    echo ""
+  } >&2
+  exit 1
+fi
+
+exit 0

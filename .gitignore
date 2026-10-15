@@ -1,0 +1,19 @@
+# Configuracoes do Obsidian que mudam a toda hora e nao dizem nada
+.obsidian/workspace*
+
+# Ajustes locais do Claude Code: ficam so nesta maquina
+.claude/settings.local.json
+
+# Material de setup, incluindo a entrevista bruta: nunca sobe
+_meta/setup/
+
+# Rede de seguranca do mecanismo de sigilo. O hook .githooks/pre-commit e
+# quem le o cabecalho e bloqueia; estas linhas pegam o caso em que a marca
+# de sigilo esta no nome do arquivo ou da pasta.
+*(sigilo).md
+*(sigilo)/
+
+# Lixo de sistema
+Thumbs.db
+desktop.ini
+.DS_Store

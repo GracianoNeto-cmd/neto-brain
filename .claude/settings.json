@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "ask": [
+      "Bash(git push *)",
+      "PowerShell(git push *)",
+      "Bash(rm *)",
+      "Bash(rmdir *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(Clear-Content *)",
+      "Bash(find * -delete)",
+      "Bash(find * -delete *)",
+      "Bash(git clean *)",
+      "PowerShell(git clean *)",
+      "Bash(git reset --hard *)",
+      "PowerShell(git reset --hard *)",
+      "Bash(git rebase *)",
+      "PowerShell(git rebase *)"
+    ],
+    "deny": [
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "PowerShell(git push --force *)",
+      "PowerShell(git push -f *)",
+      "Bash(git branch -d *)",
+      "Bash(git branch -D *)",
+      "PowerShell(git branch -d *)",
+      "PowerShell(git branch -D *)",
+      "Bash(git filter-branch *)",
+      "PowerShell(git filter-branch *)"
+    ]
+  }
+}

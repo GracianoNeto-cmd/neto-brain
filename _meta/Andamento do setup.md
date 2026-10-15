@@ -81,6 +81,7 @@ Antes de qualquer operação em lote no futuro, o Claude pergunta se existe back
 - [[Decisão — GitHub e sigilo]]
 
 ## Pendências abertas
+- Primeiro item de verdade na caixa de entrada: `0. Inbox/Capturas/2026-10-15 — Construção do second brain, fases 0 a 3.md`, esperando o Arrumador na próxima sessão. Ele traz um candidato a skill, "Adaptar peça do kit do Heitor".
 - Conteúdo da FIA Júnior que hoje vive na memória da conta do Claude e no ClickUp precisa vir para o vault (fase 4c). O Claude não lê a memória da conta daqui, então vai depender de exportação ou cópia pelo Neto.
 - ❓ Confirmar no texto do termo de confidencialidade da FIA Júnior que a cópia local é permitida. Até então, conteúdo de cliente segue a regra mais restritiva.
 - Migração do conteúdo do Notion para o vault: tarefa própria, depois da fase 3.
@@ -109,3 +110,4 @@ Antes de qualquer operação em lote no futuro, o Claude pergunta se existe back
 - **2026-10-15** | conversa com o Claude — fase 1 concluída, sete blocos de entrevista gravados e resumo aprovado
 - **2026-10-15** | conversa com o Claude — fase 2 concluída, permissões, hook de sigilo, gitignore e primeiro envio ao GitHub
 - **2026-10-15** | conversa com o Claude — fase 3 concluída, arquitetura criada e grafo configurado com 16 nós
+- **2026-10-15** | encerramento de sessão — captura escrita na caixa de entrada, primeira execução real de uma skill do vault

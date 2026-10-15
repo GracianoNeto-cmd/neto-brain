@@ -17,3 +17,7 @@ _meta/setup/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Corpo de prova do hook de sigilo: fora do commit de rotina.
+# Para retestar o hook: git add -f "_meta/Teste de sigilo.md"
+_meta/Teste de sigilo.md

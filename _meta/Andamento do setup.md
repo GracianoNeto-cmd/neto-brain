@@ -8,7 +8,7 @@ tags: [setup]
 ---
 # Andamento do setup
 
-**Fase atual:** fase 3 concluída em 2026-10-15. Próxima: fase 4, contexto de reuniões.
+**Fase atual:** fase 3 concluída em 2026-10-15, e a migração do Notion feita no mesmo dia, como tarefa própria. Próxima: fase 4, contexto de reuniões.
 
 Leia este arquivo antes de tudo no começo de cada sessão nova.
 
@@ -79,18 +79,53 @@ Antes de qualquer operação em lote no futuro, o Claude pergunta se existe back
 ## Decisões tomadas
 - [[Decisão — Vault, Notion e memória do Claude]]
 - [[Decisão — GitHub e sigilo]]
+- [[Decisão — Migração do Notion]]
+
+## Migração do Notion (2026-10-15)
+Tarefa própria, feita depois da fase 3. Detalhe inteiro em
+[[Decisão — Migração do Notion]].
+
+- Workspace `Neto´s Home`, conta gnetosouza2009@gmail.com. Três páginas privadas
+  de topo, 15 páginas de conteúdo, 16 databases, 11 deles vazios.
+- **Zero teamspaces e zero páginas compartilhadas**, nos dois sentidos. Não
+  existe base compartilhada da FIA Júnior no Notion.
+- **Zero conteúdo de cliente.** Nada do Notion nasceu `sigilo: alto`.
+- Todo o conteúdo da FIA Júnior é retrato de 21/03 a 01/04 de 2026. As notas de
+  projeto dizem isso no Resumo e no Estado.
+- Entraram cinco notas novas, a área [[FIA Júnior]] ampliada de 46 para 123
+  linhas, e dois anexos em `_meta/anexos`.
+- Ficou de fora o Controle Financeiro inteiro, pela regra que proíbe guardar
+  dado de finanças. Nenhuma linha dessas tabelas foi aberta.
+- O Notion não foi alterado em nada e segue congelado como fonte histórica.
+- Nada foi enviado ao GitHub nesta tarefa.
 
 ## Pendências abertas
 - Primeiro item de verdade na caixa de entrada: `0. Inbox/Capturas/2026-10-15 — Construção do second brain, fases 0 a 3.md`, esperando o Arrumador na próxima sessão. Ele traz um candidato a skill, "Adaptar peça do kit do Heitor".
 - Conteúdo da FIA Júnior que hoje vive na memória da conta do Claude e no ClickUp precisa vir para o vault (fase 4c). O Claude não lê a memória da conta daqui, então vai depender de exportação ou cópia pelo Neto.
 - ❓ Confirmar no texto do termo de confidencialidade da FIA Júnior que a cópia local é permitida. Até então, conteúdo de cliente segue a regra mais restritiva.
-- Migração do conteúdo do Notion para o vault: tarefa própria, depois da fase 3.
+- ~~Migração do conteúdo do Notion para o vault~~: feita em 2026-10-15. Ver
+  [[Decisão — Migração do Notion]].
+- Localizar a pasta local "DP Projetos", onde estão os 6 playbooks, as 6 trilhas
+  de PDI, os ~10 processos mapeados, os 5 dashboards e os documentos do Peter
+  Pan e do PE2026. O Notion só guarda o índice; o acervo está só nessa pasta,
+  sem cópia fora do computador.
+- Dizer o que aconteceu com o Peter Pan e com o PE2026 entre abril e outubro de
+  2026. Até isso, as duas notas de projeto são história, não estado.
+- ❓ Working day é quinta ou sexta? A entrevista da fase 1 e o Notion se
+  contradizem. Pendência aberta em [[FIA Júnior]].
+- ❓ Qual das duas versões dos OKRs do Q2 vale, nos quatro KRs que divergem
+  dentro do próprio Notion.
+- Nomear as quatro pessoas do time da Diretoria de Projetos. O Notion as
+  identifica só por cargo, então nenhuma nota de pessoa pôde ser criada.
+- Conferir o módulo M5 do curso de UI e UX, que o conector do Notion não deixou
+  consultar por limite de uso do plano atual.
 - Sincronização com o celular: reabrir se o Neto quiser o celular.
 - Perguntar, depois do `CONTEXTO.md` aprovado na fase 3, se a entrevista bruta continua em `_meta/setup/` ou vai para `5. Arquivo/`. Em qualquer caso continua fora do GitHub.
 - Definir na fase 4 o critério operacional de "reunião importante", que hoje é circular.
 - Decidir se transcrição automática de reunião de cliente é viável, dado que exige avisar os participantes e existe termo de confidencialidade.
 - Fase 3: decidir se decisão de vida fica na área correspondente, e não em `_meta/Decisões/`.
-- Projetos ativos: o Neto ainda não informou quais são. `1. Projetos/` está vazia.
+- Projetos ativos: o Neto ainda não informou quais são. `1. Projetos/` tem dois,
+  vindos do Notion, ambos como retrato de abril de 2026.
 - TCC: candidato a projeto, sem data de início.
 - ABRAEC: hipótese vinda do Drive, não confirmada pelo Neto. Se for projeto de cliente da FIA Júnior, nasce `sigilo: alto`.
 - Criar as notas de matéria do semestre, que é onde os professores entram no grafo.
@@ -111,3 +146,4 @@ Antes de qualquer operação em lote no futuro, o Claude pergunta se existe back
 - **2026-10-15** | conversa com o Claude — fase 2 concluída, permissões, hook de sigilo, gitignore e primeiro envio ao GitHub
 - **2026-10-15** | conversa com o Claude — fase 3 concluída, arquitetura criada e grafo configurado com 16 nós
 - **2026-10-15** | encerramento de sessão — captura escrita na caixa de entrada, primeira execução real de uma skill do vault
+- **2026-10-15** | migração do Notion — workspace inventariado inteiro e conteúdo trazido em cinco notas novas, com o Controle Financeiro deixado de fora e o Notion intacto
